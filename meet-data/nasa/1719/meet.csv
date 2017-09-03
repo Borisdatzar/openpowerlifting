@@ -1,2 +1,6 @@
 Federation,Date,MeetCountry,MeetState,MeetTown,MeetName
+<<<<<<< HEAD
 NASA,2017-08-05,USA,,,2017 One Healthy Bod Expo 
+=======
+NASA,2017-08-05,USA,,,One Healthy Bod Expo
+>>>>>>> a5279a97fe818aa284fea579cdf9c2b549f2f21b

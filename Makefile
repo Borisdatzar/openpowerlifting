@@ -37,7 +37,6 @@ check:
 # or at least are quick to read and not filled with noise.
 # Data showing up here should be immediately actionable.
 probe-quick:
-	${DATADIR}/365strong/365strong-probe || true
 	${DATADIR}/aau/aau-probe --quick || true
 	${DATADIR}/apa/apa-probe || true
 	${DATADIR}/apf/apf-probe --quick || true
@@ -49,10 +48,12 @@ probe-quick:
 	${DATADIR}/hercules/hercules-probe || true
 	${DATADIR}/ipa/ipa-probe || true
 	${DATADIR}/irishpf/irishpf-probe || true
+	${DATADIR}/nasa/nasa-probe --quick || true
 	${DATADIR}/nipf/nipf-probe || true
 	${DATADIR}/pa/pa-probe || true
 	${DATADIR}/rps/rps-probe || true
 	${DATADIR}/rupc/rupc-probe || true
+	${DATADIR}/scottishpl/scottishpl-probe --quick || true
 	${DATADIR}/spf/spf-probe || true
 	${DATADIR}/spf-archive/spf-archive-probe || true
 	${DATADIR}/upa/upa-probe || true
@@ -63,7 +64,6 @@ probe-quick:
 
 # List of all probes.
 probe:
-	${DATADIR}/365strong/365strong-probe || true
 	${DATADIR}/aau/aau-probe || true
 	${DATADIR}/apa/apa-probe || true
 	${DATADIR}/apf/apf-probe || true
@@ -87,6 +87,7 @@ probe:
 	${DATADIR}/raw/raw-probe || true
 	${DATADIR}/rps/rps-probe || true
 	${DATADIR}/rupc/rupc-probe || true
+	${DATADIR}/scottishpl/scottishpl-probe || true
 	${DATADIR}/spf/spf-probe || true
 	${DATADIR}/spf-archive/spf-archive-probe || true
 	${DATADIR}/thspa/thspa-probe || true
@@ -103,6 +104,7 @@ clean:
 	rm -rf 'tests/__pycache__'
 	rm -rf '${DATADIR}/apf/__pycache__'
 	rm -rf '${DATADIR}/cpu/__pycache__'
+	rm -rf '${DATADIR}/ipf/__pycache__'
 	rm -rf '${DATADIR}/nasa/__pycache__'
 	rm -rf '${DATADIR}/nipf/__pycache__'
 	rm -rf '${DATADIR}/nsf/__pycache__'
@@ -111,5 +113,5 @@ clean:
 	rm -rf '${DATADIR}/spf/__pycache__'
 	rm -rf '${DATADIR}/thspa/__pycache__'
 	rm -rf '${DATADIR}/usapl/__pycache__'
-	rm -rf '${DATADIR}/ipf/__pycache__'
+	rm -rf '${DATADIR}/wrpf/__pycache__'
 	$(MAKE) -C web clean

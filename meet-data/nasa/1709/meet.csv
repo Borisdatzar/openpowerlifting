@@ -1,2 +1,6 @@
 Federation,Date,MeetCountry,MeetState,MeetTown,MeetName
+<<<<<<< HEAD
 NASA,2017-04-15,USA,KA,,2017 Kansas State
+=======
+NASA,2017-04-15,USA,KS,,2017 Kansas State
+>>>>>>> a5279a97fe818aa284fea579cdf9c2b549f2f21b

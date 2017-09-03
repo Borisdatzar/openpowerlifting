@@ -1,2 +1,6 @@
 Federation,Date,MeetCountry,MeetState,MeetTown,MeetName
+<<<<<<< HEAD
 NASA,2017-14-01,USA,MO,,2017-Missouri-State
+=======
+NASA,2017-01-14,USA,MO,,Missouri State Championships
+>>>>>>> a5279a97fe818aa284fea579cdf9c2b549f2f21b
