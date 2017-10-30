@@ -1,2 +1,6 @@
 Federation,Date,MeetCountry,MeetState,MeetTown,MeetName
+<<<<<<< HEAD
 NASA,2017-08-19,USA,,,American Cup
+=======
+NASA,2017-01-07,USA,,,South Texas State
+>>>>>>> 981ed1a... nasa_1720
